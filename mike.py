@@ -17,3 +17,4 @@ def square_number(n):
 
 print(square_number(input("t: ")))
 
+# tr
