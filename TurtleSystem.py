@@ -1,7 +1,7 @@
 import turtle
 # squar 
-class TurtleMike(): #This little thingimabob does stuff and then things happen
-    def __init__(self, color):
+class TurtleMike(): # This class holds the data necessary to make the turtle so that you can draw shapes! Yay!
+    def __init__(self, color): 
         self.pencil = turtle.Turtle()
         self.pencil.color(color)
 class square(TurtleMike): #This is a square
@@ -9,9 +9,9 @@ class square(TurtleMike): #This is a square
         super().__init__(color)
         self.side_length = side_length
     def draw(self):
-        self.pencil.forward(100)
+        self.pencil.forward(100) # Forward goe forward
         self.pencil.left(120)
-        self.pencil.forward(100)
+        self.pencil.forward(100) # left goes Left
         self.pencil.left(120)
         self.pencil.forward(100)
     # Octagon! We found a glorious octagon!

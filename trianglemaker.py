@@ -11,7 +11,7 @@ def add_to_list(c):
     print(my_list)
     my_list.append(int(c))
     return (my_list)
-print(add_to_list(input("awesome: ")))
+print(add_to_list(input("awesome: "))) #It adds something to a list
 def square_number(n):
     return ((int(n)*int(n)))
 

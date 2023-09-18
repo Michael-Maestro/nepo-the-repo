@@ -143,6 +143,8 @@ print_arbitrary()
 # This follows the DRY (don't repeat yourself) principle.
 # How ? 
 # Simple! It doesn't repeat.....
+# Why should I even follow DRY?
+# Because it's actually editable, unlike that mess up there.
 def inputter():
     alfabet = ("abcdefghijklmnopqrstuvwxyz")
     t = input("disliked letter here: ")
