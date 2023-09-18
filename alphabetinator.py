@@ -140,6 +140,9 @@ def print_arbitrary():
         return ("screw you")
 print_arbitrary()
 # Code below follows SOLID a little better than the MEGASTUPID up there.
+# This follows the DRY (don't repeat yourself) principle.
+# How ? 
+# Simple! It doesn't repeat.....
 def inputter():
     alfabet = ("abcdefghijklmnopqrstuvwxyz")
     t = input("disliked letter here: ")
