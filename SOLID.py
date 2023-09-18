@@ -15,7 +15,7 @@ This means that modules and code should depend on abstractions of code instead o
 
 # SOLID: 
 # Single Responsibility Principle (SRP):
-# Each class (Circle, Square, AreaCalculator, App) has one specific role.
+# Each class (Circle, Square, AreaCalculator, App) has one specific role, as per S of SOLID.
 class Shape:
     # Dependency Inversion Principle (DIP): High-level modules depend on abstractions (Shape), not on specific implementations.
     def area(self):
