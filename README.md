@@ -1,11 +1,11 @@
 This is a collection of various code elements that either implement design principles or flat-out ignore them.
 -
--
--
+
+
 Either way, this is my personal little research tunnel.
 -
--
--
+
+  
 Design Principles I enjoy:
 SOLID Principle
 Each letter in "SOLID" stands for a principle:
